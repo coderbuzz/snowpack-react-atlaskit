@@ -3,7 +3,7 @@
   "scripts": {"bundle:*": "@snowpack/plugin-webpack"},
   "plugins": ["@snowpack/plugin-dotenv", "@snowpack/plugin-webpack"],
   "installOptions": {
-    "sourceMap": false,
+    "sourceMap": true,
     "treeshake": false
   },
   "buildOptions": {

@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@atlaskit/button": "^13.4.1",
+    "@atlaskit/page": "^11.0.14",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.1.1"
