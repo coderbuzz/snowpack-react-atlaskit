@@ -1,0 +1,30 @@
+{
+  "name": "snowpack-react-atlaskit",
+  "version": "1.0.0",
+  "description": "Create Snowpack App (CSA) + React + Atlaskit",
+  "keywords": [
+    "react",
+    "snowpack",
+    "atlaskit"
+  ],
+  "author": "CoderBuzz",
+  "license": "ISC",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build",
+    "reset": "snowpack --reload",
+    "serve": "serve build"
+  },
+  "dependencies": {
+    "@atlaskit/button": "^13.4.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@snowpack/app-scripts-react": "^1.2.0",
+    "@snowpack/plugin-dotenv": "^1.1.1",
+    "@snowpack/plugin-webpack": "^1.2.0",
+    "snowpack": "^2.5.1"
+  }
+}
